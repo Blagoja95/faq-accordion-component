@@ -1,0 +1,80 @@
+@media (max-width: 375px){
+
+    .wrapper {
+        padding-top: 5rem;
+    }
+    .component {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        width: 35rem;
+
+        position: relative;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .faq-container{
+        margin-top: 5rem;
+        align-items: flex-end;
+        padding-bottom: 4rem;
+    }
+
+    .faq {
+        margin-bottom: 1rem;
+    }
+
+    .faq-container h1{
+        text-align: center;
+        font-size: 3.8rem;
+    }
+
+    .active .answer {
+        display: block;
+        padding-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .attribution {
+        margin-top: 3rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+
+    /* IMGs */
+
+    .img-container{
+        position: relative;
+    }
+
+    .img-box{
+        display: none;
+    }
+
+    .woman-online-container{
+        overflow: visible;
+    }
+    
+    .woman-online{
+        background-image: url('../images/illustration-woman-online-mobile.svg');
+        height: 30rem;
+        width: 30rem;
+        top: 0;
+        right:0;
+
+        transform: translate(-10%, -45%);
+    }
+
+    .shadow{
+        background-image: url('../images/bg-pattern-mobile.svg');
+        height: 20rem;
+        width: 50rem;
+        top: 0;
+        right:0;
+
+        transform: scale(1.2) translate(38%, 9%);
+    }
+    
+}
