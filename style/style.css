@@ -33,7 +33,7 @@ body {
 }
 
 .component {
-    width: 100rem;
+    width: 90rem;
     /* padding: 10rem 0; */
 
     display: grid;
@@ -56,10 +56,10 @@ body {
 }
 
 .woman-online {
-    width: 100%;
+    width: 800px;
     height: 100%;
     position: absolute;
-    transform: translate(-16%, 15%);
+    transform: translate(-10%, 10%);
     z-index: 1;
     background-image: url('../images/illustration-woman-online-desktop.svg');
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ body {
     z-index: 10;
     top: 0;
     left:0;
-    transform: translate(-50%, 100%);
+    transform: translate(-55%, 90%);
     background-image: url('../images/illustration-box-desktop.svg');
     background-repeat: no-repeat;
     background-size: cover;
